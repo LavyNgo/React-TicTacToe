@@ -1,0 +1,35 @@
+:root {
+  --backgroud-color: #0f1b21;
+  --btn-color: #152d3a;
+  --btn-text-color: #fff;
+  --text-color-1: #fff;
+  --text-color-2: #26ffcb;
+  --box-color: #152d3a;
+  --box-border-color: #0e151a;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--backgroud-color);
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, p {
+  color: var(--text-color-1);
+}
+
+span {
+  color: var(--text-color-2);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  background: var(--btn-color);
+  color: var(--btn-text-color);
+  font-size: 25px;
+}
